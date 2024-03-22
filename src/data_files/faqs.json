@@ -1,29 +1,29 @@
-{
-  "subTitle": "Ask us anything about our brand and products, and get factual responses.",
+  {
+  "subTitle": "Find answers about our mission, projects, and how to get involved.",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "What kind of projects does the Rotary Fellowship of Developers work on?",
+      "answer": "The RFD works on a variety of technology-driven projects that support Rotary's humanitarian goals, ranging from developing community service apps to creating website templates for Rotary clubs. Our projects aim to leverage technology to create positive change."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "How can I join the Rotary Fellowship of Developers?",
+      "answer": "Joining is a breeze for developers. And if you're new to development, don't worry—we're here to guide you. The process to join involves making a contribution to one of our repos (including this website). We welcome anyone with a passion for technology and community service, ready to contribute to our projects."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "Can non-Rotarians join the Fellowship?",
+      "answer": "While our fellowship primarily consists of members of Rotary, we welcome collaborations with non-Rotarians who are committed to using their technical skills for good. Contact us to explore how you can get involved."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "What resources are available to members?",
+      "answer": "Members have access to a wealth of resources including coding guides, tutorials, professional development webinars, and a global network of tech professionals. Our resource library is constantly updated to keep you informed and empowered."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "How often does the RFD host workshops and meetups?",
+      "answer": "We host regular workshops and meetups both online and in various locations around the world. These events range from technical deep-dives to networking sessions, aimed at fostering collaboration and learning within our community."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "Does the RFD offer mentorship opportunities?",
+      "answer": "Yes, we run a mentorship program that pairs experienced developers with members seeking guidance on their professional journey or on specific projects. It's a great way to learn, share knowledge, and make lasting connections."
     }
   ]
 }

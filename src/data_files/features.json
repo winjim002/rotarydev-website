@@ -1,22 +1,22 @@
 [
   {
-    "heading": "Dedicated Teams",
-    "content": "Benefit from our committed teams who ensure your success is personal. Count on expert guidance and exceptional results throughout your project journey.",
+    "heading": "Our Mission",
+    "content": "Connect rotarian developers across the globe to collaborate on projects that leverage technology in support of Rotary causes and foster the professional and personal development of our members.",
     "svg": "groups"
   },
   {
-    "heading": "Simplicity and Affordability",
-    "content": "Find easy-to-use, affordable solutions with ScrewFast's line of tools and equipment. Our products make procurement simple and keep projects within budget.",
+    "heading": "Vision",
+    "content": "We envision a world where technological collaboration and innovation drive progress and sustainable development, with a global network of Rotarian developers at the forefront of this movement.",
     "svg": "verified"
   },
   {
-    "heading": "Comprehensive Documentation",
-    "content": "Integrate with ease using ScrewFast's exhaustive guides and libraries. Achieve seamless product adoption with our full suite of documentation designed for your success.",
-    "svg": "books"
+    "heading": "Values",
+    "content": "Community, Innovation, Integrity and Service. We are committed to using our skills for positive impact.",
+    "svg": "frame"
   },
   {
-    "heading": "User-Centric Design",
-    "content": "Experience the difference with ScrewFast's user-focused design — where functionality meets practicality for an enhanced work experience.",
-    "svg": "frame"
+    "heading": "History",
+    "content": "Started as a small group of programming-enthusiast Rotarians in 2024 and has grown to include members from every continent, working together on projects ranging from app development to data analysis in support of Rotary initiatives.",
+    "svg": "books"
   }
 ]
