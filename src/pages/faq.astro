@@ -1,0 +1,15 @@
+---
+// Import the necessary components
+import MainLayout from "../layouts/MainLayout.astro";
+import FAQ from "../components/sections/FAQ.astro";
+import faqs from "../data_files/faqs.json";
+---
+
+<!--Utilizing MainLayout for the outer layout of the page, and defining meta for SEO purposes-->
+<MainLayout title="FAQ | RotaryDev">
+  <FAQ
+    id="faq"
+    title="Got questions?"
+    faqs={faqs}
+  />
+</MainLayout>
