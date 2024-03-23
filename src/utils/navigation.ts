@@ -11,9 +11,9 @@ export const footerLinks = [
     section: "Fellowship",
     links: [
       { name: "Join Us", url: "/join-us" },
-      { name: "Projects", url: "/projects" },
-      { name: "Mentorship", url: "/mentorship" },
-      { name: "Workshops & Events", url: "/events" },
+      // { name: "Projects", url: "/projects" },
+      // { name: "Mentorship", url: "/mentorship" },
+      // { name: "Workshops & Events", url: "/events" },
       { name: "Contact Us", url: "/contact" },
     ],
   },
@@ -24,6 +24,7 @@ export const footerLinks = [
       { name: "Blog", url: "/blog" },
       { name: "FAQ", url: "/faq" },
       { name: "Rotary International", url: "https://rotary.org" },
+      { name: "Rotary Fellowships", url: "https://www.rotary.org/our-programs/more-fellowships" },
     ],
   },
 ];
