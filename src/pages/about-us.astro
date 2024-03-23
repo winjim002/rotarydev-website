@@ -1,0 +1,16 @@
+---
+// Import the necessary components
+import MainLayout from "../layouts/MainLayout.astro";
+import FeaturesGeneral from "../components/sections/features/FeaturesGeneral.astro";
+
+import features from "../data_files/features.json";
+---
+<!--Utilizing MainLayout for the outer layout of the page, and defining meta for SEO purposes-->
+<MainLayout title="About Us | RotaryDev">
+  <FeaturesGeneral
+    id="about"
+    title="About Us"
+    subTitle="A vibrant community where tech innovators and humanitarian doers of Rotary International come together to turn ideas into tangible solutions that enhance our communities and the world."
+    features={features}
+  />
+</MainLayout>
