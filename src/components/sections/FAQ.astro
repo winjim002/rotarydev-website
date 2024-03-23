@@ -3,7 +3,7 @@
 import AccordionItem from "../ui/blocks/AccordionItem.astro";
 
 // Define props from Astro
-const { title, faqs } = Astro.props;
+const { title, faqs, id } = Astro.props;
 
 // Define TypeScript interface for props
 interface Faq {
@@ -17,6 +17,7 @@ interface FaqGroup {
 }
 
 interface Props {
+  id?: string;
   title: string;
   faqs: FaqGroup;
 }
@@ -27,6 +28,7 @@ const makeId = (base: any, index: any) => `${base}${index + 1}`;
 <!-- Main container that holds all content. Customized for different viewport sizes. -->
 <section
   class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+  id={id || ""}
 >
   <div class="grid gap-10 md:grid-cols-5">
     <div class="md:col-span-2">
