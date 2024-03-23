@@ -14,9 +14,11 @@ import heroImage from "../images/rotary-dev-sticker.png";
 import faqs from "../data_files/faqs.json";
 import features from "../data_files/features.json";
 import featureImage from "../images/features-image.avif";
-import construction from "../images/construction-image.avif";
-import tools from "../images/automated-tools.avif";
-import dashboard from "../images/dashboard-image.avif";
+import imgAccess from "../images/access.jpg";
+import imgCollab from "../images/collab.jpg";
+import imgMentor from "../images/mentor.jpg";
+import imgWorkshop from "../images/workshop.jpg";
+
 
 const avatarSrcs: Array<string> = [
   "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80",
@@ -71,7 +73,7 @@ const avatarSrcs: Array<string> = [
         heading: "Tech Access for Rotary Clubs",
         content: "Enable Rotary clubs worldwide to embrace technology with accessible website templates and digital tools, simplifying online presence and operations.",
         svg: "tools",
-        src: tools,
+        src: imgAccess,
         alt: "A globe icon representing global access to technology",
         first: true,
       },
@@ -79,7 +81,7 @@ const avatarSrcs: Array<string> = [
         heading: "Collaborative Development",
         content: "Join forces on tech projects that support Rotary's missions, leveraging our network of developers to bring innovative solutions to life.",
         svg: "dashboard",
-        src: dashboard,
+        src: imgCollab,
         alt: "Two hands working together, symbolizing collaboration",
         second: true,
       },
@@ -87,7 +89,7 @@ const avatarSrcs: Array<string> = [
         heading: "Networking and Mentorship",
         content: "Connect with like-minded developers through our platform, sharing knowledge and finding mentorship opportunities to grow professionally.",
         svg: "house",
-        src: construction,
+        src: imgMentor,
         alt: "A network diagram symbolizing connections between developers",
       },
       {
@@ -95,7 +97,7 @@ const avatarSrcs: Array<string> = [
         content:
           "Promote and participate in technology workshops and meetups, enhancing skills and fostering a culture of continuous learning within the Rotarian community.",
         svg: "house",
-        src: construction,
+        src: imgWorkshop,
         alt: "An icon or image depicting a workshop or educational setting",
       },
     ]}
