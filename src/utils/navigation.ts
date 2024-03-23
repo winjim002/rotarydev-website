@@ -1,28 +1,29 @@
 // An array of links for navigation bar
 export const navBarLinks = [
   { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
+  { name: "About", url: "#about" },
   { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "Join Us", url: "/join-us" },
 ];
 // An array of links for footer
 export const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "Fellowship",
     links: [
-      { name: "Documentation", url: "/en/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "Join Us", url: "/join-us" },
+      { name: "Projects", url: "/projects" },
+      { name: "Mentorship", url: "/mentorship" },
+      { name: "Workshops & Events", url: "/events" },
+      { name: "Contact Us", url: "/contact" },
     ],
   },
   {
-    section: "Company",
+    section: "Resources",
     links: [
-      { name: "About us", url: "#" },
-      { name: "Blog", url: "#" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+      { name: "Documentation", url: "/documentation" },
+      { name: "Blog", url: "/blog" },
+      { name: "FAQ", url: "/faq" },
+      { name: "Rotary International", url: "https://rotary.org" },
     ],
   },
 ];
