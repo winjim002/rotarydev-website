@@ -28,9 +28,9 @@ export const footerLinks = [
 ];
 // An object of links for social icons
 export const socialLinks = {
-  facebook: "#",
-  x: "#",
+  facebook: "",
+  x: "",
   github: "https://github.com/mearashadowfax/ScrewFast",
-  google: "#",
-  slack: "#",
+  google: "",
+  slack: "",
 };
