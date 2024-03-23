@@ -1,8 +1,8 @@
 // An array of links for navigation bar
 export const navBarLinks = [
   { name: "Home", url: "/" },
-  { name: "About", url: "#about" },
-  { name: "Blog", url: "/blog" },
+  { name: "About", url: "/about-us" },
+  // { name: "Blog", url: "/blog" },
   { name: "Join Us", url: "/join-us" },
 ];
 // An array of links for footer
@@ -10,6 +10,7 @@ export const footerLinks = [
   {
     section: "Fellowship",
     links: [
+      { name: "About Us", url: "/about-us" },
       { name: "Join Us", url: "/join-us" },
       // { name: "Projects", url: "/projects" },
       // { name: "Mentorship", url: "/mentorship" },
@@ -20,8 +21,8 @@ export const footerLinks = [
   {
     section: "Resources",
     links: [
-      { name: "Documentation", url: "/documentation" },
-      { name: "Blog", url: "/blog" },
+      // { name: "Documentation", url: "/documentation" },
+      // { name: "Blog", url: "/blog" },
       { name: "FAQ", url: "/faq" },
       { name: "Rotary International", url: "https://rotary.org" },
       { name: "Rotary Fellowships", url: "https://www.rotary.org/our-programs/more-fellowships" },
