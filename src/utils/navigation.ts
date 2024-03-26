@@ -1,12 +1,12 @@
 // An array of links for navigation bar
-export const navBarLinks = [
+const navBarLinks = [
   { name: "Home", url: "/" },
   { name: "About", url: "/about-us" },
   // { name: "Blog", url: "/blog" },
   { name: "Join Us", url: "/join-us" },
 ];
 // An array of links for footer
-export const footerLinks = [
+const footerLinks = [
   {
     section: "Fellowship",
     links: [
@@ -36,4 +36,10 @@ export const socialLinks = {
   github: "https://github.com/mearashadowfax/ScrewFast",
   google: "",
   slack: "",
+};
+
+export default {
+  navBarLinks,
+  footerLinks,
+  socialLinks,
 };

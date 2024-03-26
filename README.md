@@ -94,8 +94,13 @@ ScrewFast is an open-source template designed for quick and efficient web projec
     - The Icon Component offers a centralized location for all SVG Icons across the project in one TypeScript file - allowing unified updates and easy maintenance.
     - **Note:** Users have the option to use other community integrations like [astro-icons](https://github.com/natemoo-re/astro-icon). However, the author decided to create a custom icon set component for managing custom icons.
 
+### In Process
+- [ ] Internationalization (i18n)
+
+
 ### Planned Improvements
 - [ ] Implement a table of contents (ToC) sidebar for blog articles.
+
 
 ### Bug Fixes
 - Currently, there are no known bugs. If you encounter any issues, please report them on our [issues page](https://github.com/mearashadowfax/ScrewFast/issues).
@@ -144,7 +149,7 @@ Click the button below to start deploying your project on Vercel:
 
 ## Project Structure
 
-ScrewFast organizes modular components, content, and layouts to streamline development and content management. Expand for a detailed overview of the directory structure:
+ScrewFast organizes modular components, content, and layouts to streamline development and content management.
 
 ```md
 
@@ -155,29 +160,33 @@ src/
 │   ├── ThemeIcon.astro   # Component for toggling light/dark themes
 │   └── ui/               # UI components categorized by functionality
 ├── content/              # Markdown files for blog posts, insights, products, and site configuration
-│   ├── blog/             
+│   ├── blog/
+│   ├── docs/           
 │   ├── insights/         
 │   ├── products/         
 │   └── config.ts         # Contains site-wide configuration options
+├── data_files/           # Strings stored as JSON files
 ├── images/               # Static image assets for use across the website
 ├── layouts/              # Components defining layout templates
 │   └── MainLayout.astro  # The main wrapping layout for all pages
 ├── pages/                # Astro files representing individual pages and website sections
 │   ├── 404.astro         # Custom 404 page
-│   ├── blog/             
+│   ├── blog/   
+│   ├── fr/               # Localized content
 │   ├── contact.astro     
 │   ├── index.astro       # The landing/home page
 │   ├── insights/         
 │   ├── products/         
 │   ├── robots.txt.ts     # Dynamically generates robots.txt
-│   └── services.astro    
+│   └── services.astro
+├── styles/               # CSS styles
 └── utils/                # Shared utility functions and helpers
 
 ```
 
 ## Static Assets and Public Resources
 
-Static files served directly to the browser are within the `public` directory at the root of the project. Expand for the layout:
+Static files served directly to the browser are within the `public` directory at the root of the project.
 
 ```md
 
@@ -199,6 +208,7 @@ public/
 │       └── preline/   # Preline UI plugins
 │           ├── accordion/
 │           ├── collapse/
+│           ├── dropdown/
 │           ├── overlay/
 │           └── tabs/
 └── social.png # Image used for social media sharing previews
@@ -320,7 +330,7 @@ export const socialLinks: SocialLinks = {
 
 > [!NOTE]
 > Remember to add complete and valid URLs for the navigation to function properly. These customizations will reflect throughout your Astro site, promoting consistency across all pages.
-</details>
+
 
 ## Integrations and Enhancements
 
@@ -365,18 +375,22 @@ Here's how we set up Lenis in `src/layouts/MainLayout.astro`:
   requestAnimationFrame(raf); // Start the loop
 </script>
 <style>
-html.lenis {
+html.lenis, html.lenis body {
   height: auto;
 }
+
 .lenis.lenis-smooth {
   scroll-behavior: auto !important;
 }
+
 .lenis.lenis-smooth [data-lenis-prevent] {
   overscroll-behavior: contain;
 }
+
 .lenis.lenis-stopped {
   overflow: hidden;
 }
+
 .lenis.lenis-scrolling iframe {
   pointer-events: none;
 }
@@ -569,7 +583,6 @@ Configure the compressor in `astro.config.mjs` file:
 ### Flexibility with Integrations
 
 The great thing about Astro is its rich ecosystem of integrations, allowing you to tailor project functionalities to your exact needs. Feel free to explore [Astro integrations page](https://astro.build/integrations/) and add additional capabilities as you see fit.
-</details>
 
 ## Tools and Technologies
 
