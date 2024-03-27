@@ -7,7 +7,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   // https://docs.astro.build/en/guides/images/#authorizing-remote-images
-  site: 'https://rotary-dev-fellowship-website.pages.dev',
+  site: 'https://rotary-dev-fellowship.pages.dev',
   image: {
     domains: ["images.unsplash.com"],
   },
