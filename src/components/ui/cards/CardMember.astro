@@ -18,11 +18,17 @@ const memberCountry = getCountryByCode(member.rotaryClub.country) as ICountryCod
      It's a link to the member detailed page.
      The data-astro-prefetch is an Astro specific Dynamic HTML feature,
      which automatically prefetches the linked page to speed up navigation. -->
+
+<div
+  class="group relative block rounded-xl outline-none ring-zinc-500 transition duration-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
+>
+<!--
 <a
   class="group relative block rounded-xl outline-none ring-zinc-500 transition duration-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
   href={`/members/${memberEntry.slug}/`}
   data-astro-prefetch
 >
+-->
   <!-- The container for the member's cover image. Uses astro:assets' Image for image source -->
   <div
     class="relative h-[350px] w-full flex-shrink-0 overflow-hidden rounded-xl before:absolute before:inset-x-0 before:z-[1] before:size-full before:bg-gradient-to-t before:from-neutral-900/[.7]"
@@ -54,5 +60,7 @@ const memberCountry = getCountryByCode(member.rotaryClub.country) as ICountryCod
       </p>
     </div>
   </div>
+<!--
 </a>
-@/utils/countries@/utils/countries
+-->
+</div>
