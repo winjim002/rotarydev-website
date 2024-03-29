@@ -71,11 +71,17 @@ export default defineConfig({
       head: [
         {
           tag: "meta",
-          attrs: { property: "og:image", content: "https://screwfast.uk" + "/social.png" },
+          attrs: {
+            property: "og:image",
+            content: "https://rotary-dev-fellowship.pages.dev" + "/docs-social.webp"
+          },
         },
         {
           tag: "meta",
-          attrs: { property: "twitter:image", content: "https://screwfast.uk" + "/social.png" },
+          attrs: {
+            property: "twitter:image",
+            content: "https://rotary-dev-fellowship.pages.dev" + "/docs-social.webp"
+          },
         },
       ],
     }),
