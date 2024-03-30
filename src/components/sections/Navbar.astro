@@ -6,9 +6,12 @@ import NavLink from "../ui/links/NavLink.astro";
 import Authentication from "./Authentication.astro";
 import enStrings from "@/utils/navigation.ts";
 import frStrings from "@/utils/fr/navigation.ts";
+import BrandLogo from "../BrandLogo.astro";
+import LanguagePicker from "../ui/LanguagePicker.astro";
 
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
+const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
 ---
 
 <!-- Main header component -->
@@ -25,10 +28,10 @@ const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
       <!-- Brand logo -->
       <a
         class="flex-none rounded-lg text-xl font-bold outline-none ring-zinc-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
-        href="/"
+        href={homeUrl}
         aria-label="Brand"
       >
-        <RotaryDevLogo class="h-auto w-48 sm:w-80" />
+        <BrandLogo class="h-auto w-24" />
       </a>
 
       <!-- Collapse toggle for smaller screens -->
@@ -79,7 +82,7 @@ const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
     >
       <!-- Navigation links container -->
       <div
-        class="mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-7 md:gap-y-0 md:ps-7"
+        class="mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-4 lg:gap-x-7 md:gap-y-0 md:ps-7"
       >
         <!-- Navigation links and Authentication component -->
         {strings.navBarLinks.map(link => (
