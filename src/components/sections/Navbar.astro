@@ -1,6 +1,5 @@
 ---
 //Import relevant dependencies
-import RotaryDevLogo from "../ui/icons/RotaryDevLogo.astro";
 import ThemeIcon from "../ThemeIcon.astro";
 import NavLink from "../ui/links/NavLink.astro";
 import Authentication from "./Authentication.astro";
@@ -31,7 +30,7 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
         href={homeUrl}
         aria-label="Brand"
       >
-        <BrandLogo class="h-auto w-24" />
+        <BrandLogo class="h-auto w-48 sm:w-80" />
       </a>
 
       <!-- Collapse toggle for smaller screens -->

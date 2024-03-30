@@ -2,7 +2,6 @@
 // Import the necessary dependencies
 import FooterSocialLink from "../ui/links/FooterSocialLink.astro";
 import EmailFooterInput from "../ui/forms/input/EmailFooterInput.astro";
-import RotaryDevLogo from "../ui/icons/RotaryDevLogo.astro";
 import enStrings from "@/utils/navigation.ts";
 import frStrings from "@/utils/fr/navigation.ts";
 import Icon from "../ui/icons/Icon.astro";
@@ -26,7 +25,7 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
     <div class="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-6">
       <div class="col-span-full lg:col-span-2">
         <!-- Brand Logo -->
-        <BrandLogo class="h-auto w-32" />
+        <BrandLogo class="h-auto w-64 sm:w-80" />
       </div>
       <!-- An array of links for Product and Company sections -->
       {
