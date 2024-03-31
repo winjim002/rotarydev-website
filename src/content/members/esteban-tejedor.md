@@ -13,6 +13,8 @@ social: {
   github: "estebantejedor",
   linkedIn: "estebantejedor",
   twitter: "estebantejedor",
+  instagram: "esteban.tejedor",
+  facebook: "esteban.tejedor",
   website: "https://webatlas.co.uk"
 }
 
