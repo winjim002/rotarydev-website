@@ -1,6 +1,14 @@
 ---
-import TestimonialsSection, { type StatProps } from "../testimonials/TestimonialsSection.astro";
+import { getCountryEmojiByPhoneCode } from "@/utils/countries";
+import { randomizeArray } from "@/utils/utils";
 import { counts, countryCodes } from "@/data_files/member-stats.json";
+import TestimonialsSection, { type StatProps } from "../testimonials/TestimonialsSection.astro";
+
+const countryEmojis = countryCodes.map((code) => {
+  return getCountryEmojiByPhoneCode(code.toString());
+});
+
+const countryEmojiString = randomizeArray(countryEmojis).join(" ");
 
 const stats: StatProps[] = [
   {
@@ -11,7 +19,7 @@ const stats: StatProps[] = [
   {
     count: counts.countries.toString(),
     description:
-      "🌐 Countries represented — creating a diverse and inclusive community",
+      `🌐 Countries represented: ${countryEmojiString} — creating a diverse and inclusive community`,
   },
   // {
   //   count: "0",
