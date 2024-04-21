@@ -1,14 +1,15 @@
 ---
 import TestimonialsSection, { type StatProps } from "../testimonials/TestimonialsSection.astro";
+import { counts, countryCodes } from "@/data_files/member-stats.json";
 
 const stats: StatProps[] = [
   {
-    count: '18',
+    count: counts.members.toString(),
     description:
       "🤓 Developers connected — fostering innovation across the globe",
   },
   {
-    count: '10',
+    count: counts.countries.toString(),
     description:
       "🌐 Countries represented — creating a diverse and inclusive community",
   },
