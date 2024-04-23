@@ -1,6 +1,6 @@
 ---
 name: James W. Nnusu
-image: "@memberImages/James W. Nnusu.jpg"
+image: "@memberImages/james-nnusu.jpg"
 languages: ['English']
 
 jobTitle: Web Developer 
