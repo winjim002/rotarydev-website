@@ -1,12 +1,12 @@
 ---
 name: James W. Nnusu
-image: "@memberImages/James-w-nnusu.jpg"
-languages: ['Spanish','English']
+image: "@memberImages/James W. Nnusu.jpg"
+languages: ['English']
 
-jobTitle: Software Developer
-bio: "Dedicated software developer with a knack for tackling complex problems and delivering user-centric solutions..."
+jobTitle: Web Developer 
+bio: "Dedicated collaborating with open source community to  enable tackling complex problems and delivering user-centric solutions affordable..."
 technologies: ['.net', 'PHP', 'SQL', 'Blazor', 'EntityFramework']
-openForWork: true						# if this mean work in a project
+openForWork: true						
 openForMentorship: true
 
 social: {
